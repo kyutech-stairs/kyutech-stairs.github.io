@@ -41,5 +41,5 @@ stairsは九州工業大学情報工学部の学生プロジェクトです。IC
  stairsへの参加は**九州工業大学の学生なら誰でも**可能です。  
  我々はDiversity(多様性)、Personality(個性)、Ambition(野心)をもつ仲間を**一年中**募集しております！！  
  連絡方法：下のLINE@のQRコードを読み込んで、新規加入希望であることを伝えてください。
- ![LINE@QRコード](image.jpeg)
+ ![LINE@QRコード](line@_contact2018.jpeg)
 
