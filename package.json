@@ -1,0 +1,23 @@
+{
+  "name": "stairs.github.io",
+  "version": "1.0.0",
+  "description": "portfolio page",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github-stairs:kyutech-stairs/stairs.github.io.git"
+  },
+  "author": "Ko Yamaura <k.kingdomail@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "auto-prefixer": "^0.4.2",
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4"
+  },
+  "scripts": {
+    "gulp": "gulp"
+  }
+}
