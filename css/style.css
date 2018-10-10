@@ -51,6 +51,10 @@ body {
   font-size: 32px;
   position: relative; }
 
+.c-subtitle {
+  text-align: center;
+  font-size: 24px; }
+
 .p-aboutus__description {
   max-width: 900px;
   margin: 0 auto;
@@ -66,12 +70,15 @@ body {
     line-height: 1.6em; }
   .p-activity-study {
     max-width: 900px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    line-height: 1.6em; }
     .p-activity-study__title {
       font-size: 20px; }
 
 .p-joinus {
   background-color: #f5f5f5; }
+  .p-joinus__description {
+    max-width: 900px; }
 
 .u-mt1 {
   margin-top: 1px; }

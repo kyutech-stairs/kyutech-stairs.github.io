@@ -1,3 +1,6 @@
 .p-joinus {
     background-color: #f5f5f5;
+    &__description {
+        max-width: 900px;
+    }
 }
