@@ -1,3 +1,9 @@
-p-aboutus {
-    background-color: black;
+.p-aboutus {
+    &__description {
+        max-width: 900px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 1.6em;
+        font-weight: bold;
+    }
 }

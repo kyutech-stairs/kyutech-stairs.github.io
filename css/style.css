@@ -46,13 +46,32 @@ body {
 .l-footer {
   height: 160px; }
 
-c-headline {
+.c-headline {
   text-align: center;
   font-size: 32px;
   position: relative; }
 
-p-aboutus {
-  background-color: black; }
+.p-aboutus__description {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.6em;
+  font-weight: bold; }
+
+.p-activity {
+  background-color: #f5f5f5; }
+  .p-activity__description {
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.6em; }
+  .p-activity-study {
+    max-width: 900px;
+    margin: 0 auto; }
+    .p-activity-study__title {
+      font-size: 20px; }
+
+.p-joinus {
+  background-color: #f5f5f5; }
 
 .u-mt1 {
   margin-top: 1px; }
