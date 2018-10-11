@@ -1,12 +1,23 @@
 .p-achievement {
     max-width: 900px;
+    width: 95%;
     margin: 0 auto;
-    padding: 16px 0;
     &__year {
         line-height: 1.6em;
         font-size: 20px;
+        font-weight: bold;
     }
     &__items {
         line-height: 1.6em;
+
+        ul {
+            > li {
+                margin-bottom: 16px;
+                line-height: 1.6em;
+                > ul {
+                    margin-left: 30px;
+                }
+            }
+        }
     }
 }
