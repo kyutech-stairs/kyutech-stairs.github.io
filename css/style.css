@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,
 abbr, acronym, address, big, cite, code, del,
@@ -77,6 +78,27 @@ body {
   text-align: center;
   font-size: 24px;
   font-weight: bold; }
+
+.p-hero {
+  background-image: url("../image/home.jpg");
+  position: relative;
+  padding: 16px 0;
+  width: 100wh;
+  height: 56vh;
+  background-position: left center;
+  background-size: cover; }
+  .p-hero::before {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* どの範囲に重ねるかを指定 */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: ' '; }
+  .p-hero img {
+    width: 80%;
+    max-width: 500px; }
 
 .p-aboutus {
   padding: 16px 0; }
