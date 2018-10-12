@@ -77,7 +77,8 @@ body {
 .c-subtitle {
   text-align: center;
   font-size: 24px;
-  font-weight: bold; }
+  font-weight: bold;
+  margin: 16px auto; }
 
 .p-hero {
   background-image: url("../image/home.jpg");
@@ -114,15 +115,23 @@ body {
   background-color: #f5f5f5;
   padding: 16px 0; }
   .p-activity__description {
-    max-width: 900px;
+    max-width: 640px;
+    text-align: center;
     width: 95%;
     margin: 0 auto;
-    line-height: 1.6em; }
+    line-height: 1.6em;
+    font-weight: bold; }
   .p-activity-study {
-    max-width: 900px;
+    max-width: 640px;
     width: 95%;
     margin: 0 auto;
     line-height: 1.6em; }
+    .p-activity-study__decription {
+      max-width: 640px;
+      text-align: center;
+      width: 95%;
+      margin: 0 auto;
+      line-height: 1.6em; }
     .p-activity-study__title {
       font-size: 20px;
       font-weight: bold;

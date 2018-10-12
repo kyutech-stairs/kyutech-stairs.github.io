@@ -1,15 +1,26 @@
+$width-max: 640px;
+
 .p-activity {
     background-color: #f5f5f5;
     padding: 16px 0;
     &__description {
-        max-width: 900px;
+        max-width: $width-max;
+        text-align: center;
         width: 95%;
         margin: 0 auto;
         line-height: 1.6em;
+        font-weight: bold;
     }
 
     &-study {
-        max-width: 900px;
+        &__decription {
+            max-width: $width-max;
+            text-align: center;
+            width: 95%;
+            margin: 0 auto;
+            line-height: 1.6em;
+        }
+        max-width: $width-max;
         width: 95%;
         margin: 0 auto;
         line-height: 1.6em;
