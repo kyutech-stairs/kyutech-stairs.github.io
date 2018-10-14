@@ -1,7 +1,5 @@
-$width-max: 640px;
-
 .p-achievement {
-    max-width: 900px;
+    max-width: $width-max;
     width: 95%;
     margin: 0 auto;
     &__year {

@@ -5,9 +5,11 @@ $breakpoint-up: (
     'xl': 'screen and (min-width: 1280px)',
   ) !default;
   
-  $breakpoint-down: (
-    'sm': 'screen and (max-width: 399px)',
-    'md': 'screen and (max-width: 767px)',
-    'lg': 'screen and (max-width: 1023px)',
-    'xl': 'screen and (max-width: 1279px)',
-  ) !default;
+$breakpoint-down: (
+  'sm': 'screen and (max-width: 399px)',
+  'md': 'screen and (max-width: 767px)',
+  'lg': 'screen and (max-width: 1023px)',
+  'xl': 'screen and (max-width: 1279px)',
+) !default;
+
+$width-max: 640px;
