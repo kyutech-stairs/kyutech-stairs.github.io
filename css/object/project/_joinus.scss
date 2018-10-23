@@ -1,0 +1,20 @@
+.p-joinus {
+    padding: 16px 0;
+    &__description {
+        max-width: $width-max;
+        width: 95%;
+        margin: 0 auto;
+        line-height: 1.6em;
+    }
+    
+    &__line {
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        img {
+            width: 80%;
+            max-width: 300px;
+            margin: 16px auto;
+        }
+    }
+}

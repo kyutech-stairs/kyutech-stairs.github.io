@@ -1,0 +1,18 @@
+.l-header {
+    background-color: white;
+    margin: 0 auto;
+    padding: 0;
+    height: 72px;
+
+    &__logo {
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        background-color: white;
+        img {
+            height: 80%;
+            max-height: 40px;
+            margin: 16px auto;
+        }
+    }
+}
