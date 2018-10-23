@@ -105,7 +105,6 @@ body {
   background-position: left center;
   background-size: cover; }
   .p-hero::before {
-    background-color: rgba(0, 0, 0, 0.5);
     /* どの範囲に重ねるかを指定 */
     position: absolute;
     top: 0;
@@ -116,6 +115,24 @@ body {
   .p-hero img {
     width: 80%;
     max-width: 500px; }
+  .p-hero-introduction {
+    margin: 64px auto;
+    padding: 0;
+    background-color: white;
+    display: inline-block;
+    vertical-align: middle; }
+    .p-hero-introduction__title {
+      text-align: center;
+      color: white;
+      font-size: 32px;
+      font-weight: bold;
+      line-height: 1.6em; }
+    .p-hero-introduction__description {
+      text-align: center;
+      line-height: 1.6em;
+      color: white;
+      font-size: 24px;
+      font-weight: bold; }
 
 .p-aboutus {
   padding: 16px 0; }
