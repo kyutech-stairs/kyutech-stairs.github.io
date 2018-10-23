@@ -4,7 +4,6 @@
     background-image: url('../image/home.jpg');
     position: relative;
     padding: 16px 0;
-    width: 100wh;
     height: 56vh;
     background-position: left center;
     background-size: cover;
@@ -26,11 +25,10 @@
     }
 
     &-introduction {
-        margin: 64px auto;
-        padding: 0;
         background-color: white;
         display: inline-block;
         vertical-align: middle;
+        padding-top: calc(56vh/3);
         &__title {
             text-align: center;
             color: white;
