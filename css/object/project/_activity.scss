@@ -1,0 +1,36 @@
+.p-activity {
+    // background-color: #f5f5f5;
+    background-color: #ffffff;
+    padding: 16px 0;
+    &__description {
+        max-width: $width-max;
+        text-align: center;
+        width: 95%;
+        margin: 0 auto;
+        line-height: 1.6em;
+        font-weight: bold;
+    }
+
+    &-study {
+        &__decription {
+            max-width: $width-max;
+            text-align: center;
+            width: 95%;
+            margin: 0 auto;
+            line-height: 1.6em;
+        }
+        max-width: $width-max;
+        width: 95%;
+        margin: 0 auto;
+        line-height: 1.6em;
+        &__title {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 8px 0;
+        }
+
+        &__items {
+
+        }
+    }
+}

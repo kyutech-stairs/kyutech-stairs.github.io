@@ -1,0 +1,13 @@
+@import "../../variable/variable";
+
+.p-aboutus {
+    padding: 16px 0;
+    &__description {
+        max-width: $width-max;
+        width: 95%;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 1.6em;
+        font-weight: bold;
+    }
+}
