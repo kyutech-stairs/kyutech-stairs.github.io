@@ -2,12 +2,14 @@
     height: 144px;
     max-width: 500px;
     width: 95%;
-    margin: 0 auto;    
+    margin: 0 auto;
+
     img {
         width: 20%;
         height: auto;
         max-width: 100px;
-        float: left;
+        display: inline-block;
+        vertical-align: middle;
     }
 
     a {
@@ -15,9 +17,10 @@
         color: black;
         text-decoration-color: black;
         text-decoration-line: none;
-        margin: 16px 16px;
+        margin: auto 16px;
+        padding: auto 0;
         font-size: 16px;
-        overflow: hidden;
-        align-self: center;
+        display: inline-block;
+        vertical-align: middle;
     }
 }

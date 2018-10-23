@@ -68,7 +68,8 @@ body {
     width: 20%;
     height: auto;
     max-width: 100px;
-    float: left; }
+    display: inline-block;
+    vertical-align: middle; }
   .l-footer a {
     text-align: center;
     color: black;
@@ -76,12 +77,11 @@ body {
             text-decoration-color: black;
     -webkit-text-decoration-line: none;
             text-decoration-line: none;
-    margin: 16px 16px;
+    margin: auto 16px;
+    padding: auto 0;
     font-size: 16px;
-    overflow: hidden;
-    -webkit-align-self: center;
-        -ms-flex-item-align: center;
-            align-self: center; }
+    display: inline-block;
+    vertical-align: middle; }
 
 .c-headline {
   text-align: center;
