@@ -87,8 +87,12 @@ body {
   text-align: center;
   font-size: 32px;
   position: relative;
-  margin: 32px 64px;
-  font-weight: bold; }
+  margin: 32px auto;
+  padding-bottom: 8px;
+  font-weight: bold;
+  border-bottom: 4px solid black;
+  display: block;
+  width: auto; }
 
 .c-subtitle {
   text-align: center;
