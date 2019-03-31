@@ -100,7 +100,7 @@ body {
 .p-hero {
   background-image: url("../image/home.jpg");
   position: relative;
-  padding: 16px 0;
+  padding: 8px 16px 24px;
   height: 56vh;
   background-position: left center;
   background-size: cover; }
@@ -127,6 +127,7 @@ body {
       font-weight: bold;
       line-height: 1.6em; }
     .p-hero-introduction__description {
+      padding-top: 8px;
       text-align: center;
       line-height: 1.6em;
       color: white;
