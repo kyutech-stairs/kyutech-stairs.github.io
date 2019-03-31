@@ -95,7 +95,7 @@ body {
   text-align: center;
   font-size: 24px;
   font-weight: bold;
-  margin: 16px auto; }
+  margin: 24px auto 16px; }
 
 .p-hero {
   background-image: url("../image/home.jpg");
@@ -168,7 +168,7 @@ body {
     .p-activity-study__title {
       font-size: 20px;
       font-weight: bold;
-      margin: 8px 0; }
+      margin: 16px 0 8px; }
 
 .p-achievement {
   background-color: #f5f5f5;
