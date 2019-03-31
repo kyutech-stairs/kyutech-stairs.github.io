@@ -185,10 +185,26 @@ body {
     .p-achievement-item__items {
       line-height: 1.6em; }
       .p-achievement-item__items ul > li {
-        margin-bottom: 16px;
-        line-height: 1.6em; }
+        list-style: none;
+        width: 33.3%;
+        -webkit-box-flex: 2;
+        -webkit-flex-grow: 2;
+            -ms-flex-positive: 2;
+                flex-grow: 2;
+        padding: 8px 0;
+        width: auto; }
         .p-achievement-item__items ul > li > ul {
-          margin-left: 30px; }
+          margin-left: 30px;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-flex-wrap: wrap;
+              -ms-flex-wrap: wrap;
+                  flex-wrap: wrap;
+          -webkit-justify-content: space-around;
+              -ms-flex-pack: distribute;
+                  justify-content: space-around; }
 
 .p-joinus {
   padding: 16px 0; }

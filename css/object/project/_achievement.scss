@@ -16,10 +16,16 @@
             line-height: 1.6em;
             ul {
                 > li {
-                    margin-bottom: 16px;
-                    line-height: 1.6em;
+                    list-style: none;
+                    width: 33.3%;
+                    flex-grow: 2;
+                    padding: 8px 0;
+                    width: auto;
                     > ul {
                         margin-left: 30px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-around;
                     }
                 }
             }
