@@ -1,5 +1,5 @@
 .p-joinus {
-    padding: 16px 0;
+    padding: 8px 0 24px;;
     &__description {
         max-width: $width-max;
         width: 95%;
@@ -9,7 +9,7 @@
     
     &__line {
         text-align: center;
-        margin: 0 auto;
+        margin: 16px auto;
         position: relative;
     }
 }
